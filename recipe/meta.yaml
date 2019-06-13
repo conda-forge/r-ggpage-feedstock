@@ -1,4 +1,4 @@
-{% set version = '0.2.2' %}
+{% set version = "0.2.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,12 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggpage_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggpage/ggpage_{{ version }}.tar.gz
-  sha256: ae27204943df786a90b2f5d6ebd8f248003da431c8e9074fe5ea23065b0aee2b
+  sha256: 1b8433aa5c6de760d8a1e857ab696008cb2e360b3f3d0966d561753770f328e2
 
 build:
   noarch: generic
   merge_build_host: True  # [win]
-  number: 1000
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
