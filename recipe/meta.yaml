@@ -55,6 +55,7 @@ about:
     as rectangles with sizes relating to the length of  the words. Which then is divided
     in lines and pages for easy overview of  up to quite large texts.
   license_family: MIT
+  license_file: LICENSE
 
 extra:
   recipe-maintainers:
