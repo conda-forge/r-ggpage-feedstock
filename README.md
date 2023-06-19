@@ -1,11 +1,11 @@
-About r-ggpage
-==============
+About r-ggpage-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggpage-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=ggpage
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggpage-feedstock/blob/main/LICENSE.txt)
 
 Summary: Facilitates the creation of page layout visualizations in which words are represented as rectangles with sizes relating to the length of  the words. Which then is divided in lines and pages for easy overview of  up to quite large texts.
 
